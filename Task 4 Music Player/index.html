@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="song-image">
+        <img src="" alt="Song Image" />
+      </div>
+      <div class="song-description">
+        <h2 class="title">Maan Meri Jaan</h2>
+        <p class="about">Album, New Life</p>
+      </div>
+      <div class="progress-bar">
+        <audio class="song" src=""></audio>
+        <input type="range" id="progress" value="0" />
+      </div>
+      <div class="control">
+        <div class="left"><i class="fa-solid fa-volume-high"></i></div>
+        <div class="middle">
+          <i class="fa-solid fa-backward"></i>
+          <i class="fa-solid fa-play"></i>
+          <i class="fa-solid fa-forward"></i>
+        </div>
+        <div class="right"><i class="fa-solid fa-repeat"></i></div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/bc69726078.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

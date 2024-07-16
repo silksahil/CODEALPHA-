@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Playwrite+AU+SA:wght@100..400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 60%;
+  height: 600px;
+  background: #ffffffe0;
+  border-radius: 10px;
+}
+.song-image img {
+
+  width: 100%;
+  height: 250px;
+  border-radius: 10px 10px 0 0;
+}
+
+.song-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2em;
+  gap: 1em;
+}
+
+.song-description h2 {
+  font-size: 2em;
+  text-transform: capitalize;
+  font-family: "Cinzel", serif;
+  color: #0f0c29;
+  letter-spacing: 2px;
+}
+
+.song-description p {
+    font-family: "Playwrite AU SA", cursive;
+    letter-spacing: 1.2px;
+    font-size: 1.2em ;
+}
+.progress-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#progress{
+    -webkit-appearance: none;
+    margin-top: 3em;
+    width: 70%;
+    height: 8px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px gray;
+    background: #302b63;
+}
+
+#progress::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 30px;
+    width: 30px;
+    background: #24243e;
+    border: 9px solid white;
+    border-radius: 50%;
+}
+
+.control{
+    display: flex;
+    justify-content: space-between;
+    margin: 4em 2em;
+}
+
+.control .left,.right{
+    font-size: 2em;
+    color: #302b63;
+    height: 50px;
+    width: 50px;
+    padding: 8px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px gray;
+    margin: 0 1.5em;
+}
+.control .left,.right i{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.control .middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.control .middle i{
+    margin:  0 0.5em;
+    font-size: 2em;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    box-shadow:2px 2px 5px gray ;
+    color: #fff;
+    background-color: #302b63;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

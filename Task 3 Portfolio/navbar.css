@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    overflow: hidden;
+    font-size: 18px;
+    font-weight: bold;
+    align-items: center;
+ 
+}
+.navbar a {
+    flex: 1;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--danger);
+    transition: background-color 0.3s;
+    font-size: 1.5em;
+}
+.navbar a:hover {
+    background-color:var(--warning);
+    color: var(--gray);
+    border-radius: 30px;
+}
+.navbar .logo:hover {
+    background-color: transparent;
+}
